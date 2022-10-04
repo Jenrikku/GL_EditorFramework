@@ -590,9 +590,9 @@ namespace GL_EditorFramework
         }
 
 
-        new public ContextMenu ContextMenu { get; set; }
+        new public ContextMenuStrip ContextMenu { get; set; }
 
-        protected void ShowContextMenu(ContextMenu contextMenu)
+        protected void ShowContextMenu(ContextMenuStrip contextMenu)
         {
             contextMenu.Show(this, mousePos);
         }
